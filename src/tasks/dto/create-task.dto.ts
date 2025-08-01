@@ -26,7 +26,7 @@ export class CreateTaskDto {
 
   @ApiProperty({
     description: 'Due date for the task',
-    example: '2024-12-31',
+    example: '2025-12-31',
   })
   @IsDateString()
   dueDate: string;
